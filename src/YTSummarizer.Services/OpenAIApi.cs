@@ -7,9 +7,15 @@ namespace YTSummarizer.Services
         private readonly OpenAIAPI _openAIApi;
         public OpenAIService()
         {
-            _openAIApi = new OpenAIAPI("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");
+            _openAIApi = new OpenAIAPI("");
         }
         public async Task<String?> AskChatGPT(String prompt)
+        {
+            var result = await _openAIApi.Completions.GetCompletion(prompt);
+            return result;
+        }
+
+        public async Task<String?> AskChatGPTasStream(String prompt)
         {
             var result = await _openAIApi.Completions.GetCompletion(prompt);
             return result;
