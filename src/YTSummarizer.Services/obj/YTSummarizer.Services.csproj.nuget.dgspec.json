@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj": {}
+    "c:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj": {
+    "c:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj",
+        "projectUniqueName": "c:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj",
         "projectName": "YTSummarizer.Services",
-        "projectPath": "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj",
+        "projectPath": "c:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj",
         "packagesPath": "C:\\Users\\Moki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\obj\\",
+        "outputPath": "c:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Moki\\AppData\\Roaming\\NuGet\\NuGet.Config",
