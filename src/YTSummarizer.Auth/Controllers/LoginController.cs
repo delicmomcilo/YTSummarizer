@@ -38,8 +38,7 @@ namespace YTSummarizer.Auth.Controllers
             if (userExists != null) return new RegisterResponse
             {
                 Message = "User already exists",
-                Success =
-            false
+                Success = false
             };
             //if we get here, no user with this email..
             userExists = new User
@@ -88,13 +87,13 @@ namespace YTSummarizer.Auth.Controllers
             }
             //all is well if ew reach here
             var claims = new List<Claim>
-                {
+            {
                 new Claim (JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim (ClaimTypes.Name, user.FullName),
                 new Claim (ClaimTypes.Name, user.FullName),
                 new Claim (JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim (ClaimTypes.NameIdentifier, user.Id.ToString())
-                };
+            };
             var roles = await _userManager.GetRolesAsync(user);
             var roleClaims = roles.Select(x => new Claim(ClaimTypes.Role, x));
             claims.AddRange(roleClaims);
@@ -102,12 +101,12 @@ namespace YTSummarizer.Auth.Controllers
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var expires = DateTime.Now.AddMinutes(30);
             var token = new JwtSecurityToken(
-            issuer: "https://localhost:7012",
-            audience: "https://localhost:7012",
-            claims: claims,
-            expires: expires,
-            signingCredentials: creds
-            );
+                issuer: "https://localhost:7012",
+                audience: "https://localhost:7012",
+                claims: claims,
+                expires: expires,
+                signingCredentials: creds
+                );
 
             return new LoginResponse
             {

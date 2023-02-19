@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "xnTrvz82QGbDvvu6y1h0VLdJDHKQ6GLcdy7ng4fBY18=",
+  "Hash": "gj4/rESMTj5LEnWWYVI53j+LeOKMy8W/MRTSgRHtbjg=",
   "Source": "YTSummarizer.Api",
   "BasePath": "_content/YTSummarizer.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Auth\\YTSummarizer.Auth.csproj",
+      "Version": 2,
+      "Source": "YTSummarizer.Auth",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    },
     {
       "Identity": "C:\\Users\\Moki\\Desktop\\playground\\YTSummarizer\\src\\YTSummarizer.Services\\YTSummarizer.Services.csproj",
       "Version": 2,

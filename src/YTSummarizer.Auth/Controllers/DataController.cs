@@ -2,7 +2,6 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using YTSummarizer.Auth.Models;
-using YTSummarizer.Auth.Security;
 using YTSummarizer.Auth.Services;
 
 namespace YTSummarizer.Auth.Controllers;

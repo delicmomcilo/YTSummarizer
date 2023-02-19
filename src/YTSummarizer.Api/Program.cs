@@ -1,8 +1,9 @@
 using YTSummarizer.Services;
-
+using YTSummarizer.Auth;
 var builder = WebApplication.CreateBuilder(args);
 
 YTSummarizer.Services.Startup.ConfigureServices(builder.Services);
+YTSummarizer.Auth.Startup.Configure(builder);
 // Add services to the container.
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();

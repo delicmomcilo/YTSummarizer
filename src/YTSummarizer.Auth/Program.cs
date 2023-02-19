@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using YTSummarizer.Auth.Security;
+using YTSummarizer.Auth;
 using YTSummarizer.Auth.Services;
 using YTSummarizer.Models;
 
